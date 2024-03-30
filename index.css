@@ -82,10 +82,11 @@ body {
     height: 30px;
     color: gray;
     font-weight: bold;
+    outline: none;
 }
 #twoDigitInputHr:focus {
     background-color: lightslategray;
-    color: white
+    color: white;
 }
 #twoDigitInputMin{
     text-align: center;
@@ -93,6 +94,7 @@ body {
     height: 30px;
     color: gray;
     font-weight: bold;
+    outline: none;
 }
 #twoDigitInputMin:focus {
     background-color: lightslategray;
