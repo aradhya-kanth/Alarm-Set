@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 350px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 0;
+}
+.clock {
+    flex: 50%;
+    text-align: center;
+    background-color: green;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+.setting {
+    flex: 50%;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+}
+.alarm{
+    background-color: darkslategray;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    padding: 35px 50px;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+}
+.tune{
+    display: none;
+    background-color: darkslategray;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(73, 163, 70);
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+}
+.tune > table, td {
+    text-align: left;
+    padding: 5px;
+}
+#twoDigitInputHr{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: gray;
+    font-weight: bold;
+}
+#twoDigitInputHr:focus {
+    background-color: lightslategray;
+    color: white
+}
+#twoDigitInputMin{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: gray;
+    font-weight: bold;
+}
+#twoDigitInputMin:focus {
+    background-color: lightslategray;
+    color: white;
+}
+#submitAlarm{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+#stopAlarm{
+    display: none;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    background-color: red;
+    color: #ffff;
+    border: none;
+    border-radius: 20px;
+}

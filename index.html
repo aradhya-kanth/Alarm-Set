@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="">
+    <title>Alarm</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="clock" onclick="handleClockBtn()" >clock</div>
+            <div class="setting" onclick="handleSettingBtn()" >setting</div>
+        </div>
+        <div class="alarm">
+            <h1 style="color: rgb(228, 237, 237);">Set Alarm</h1> <br>
+            <input type="text" id="twoDigitInputHr" maxlength="2" placeholder="hr" oninput="validateInput(this)">
+            <input type="text" id="twoDigitInputMin" maxlength="2" placeholder="min" oninput="validateInput(this)"><br><br>
+            <input type="submit" id="submitAlarm" value="Go" onclick="setAlarm()">
+            <button id="stopAlarm" onclick="stopAlarm()"><h1>stop!</h1></button>
+        </div>
+        <div class="tune">
+            <h1 style="color: rgb(228, 228, 228);">Select your Tune</h1> <br>
+            <table>
+                <tr>
+                    <td><input type="radio" class="alarm-audio" id="audio1" name="tune_setting" value="./audio1.wav" checked onchange="tuneSet(this)"></td>
+                    <td><label for="audio1">Classic alarm (default)</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" class="alarm-audio" id="audio2" name="tune_setting" value="./audio2.wav" onchange="tuneSet(this)"></td>
+                    <td><label for="audio2">Warning alarm buzzer</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" class="alarm-audio" id="audio3" name="tune_setting" value="./audio3.wav" onchange="tuneSet(this)"></td>
+                    <td><label for="audio3">City alert siren loop</label></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
