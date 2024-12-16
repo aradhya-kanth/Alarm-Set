@@ -1,46 +1,46 @@
 **Alarm Setting ⏰** <br>
-[Live Demo](https://alarmsetting.netlify.app/)
-A minimal and interactive web application that lets users set alarms with customizable audio notifications.
+[Live Demo](https://alarmsetting.netlify.app/) <br>
+A minimal and interactive web application that lets users set alarms with customizable audio notifications.<br>
 
-**📌 Features**
-• Set Multiple Alarms: Manage multiple alarms with ease.
-• Custom Alarm Sounds: Choose from various built-in sounds for personalized notifications.
-• Clear UI/UX: Simple and intuitive design for a smooth user experience.
-• Alarm Management: Delete unwanted alarms with a click.
+**📌 Features** <br>
+• Set Multiple Alarms: Manage multiple alarms with ease. <br>
+• Custom Alarm Sounds: Choose from various built-in sounds for personalized notifications. <br>
+• Clear UI/UX: Simple and intuitive design for a smooth user experience. <br>
+• Alarm Management: Delete unwanted alarms with a click. <br>
 
-**🚀 How It Works**
-Visit the Website: Open the Alarm Setting App.
+**🚀 How It Works** <br>
+Visit the Website: Open the Alarm Setting App. <br>
 
-**Set an Alarm:**
-• Choose the alarm time using the input field.
-• Select an audio notification from the dropdown list.
-• Click the "Set Alarm" button.
+**Set an Alarm:** <br>
+• Choose the alarm time using the input field. <br>
+• Select an audio notification from the dropdown list. <br>
+• Click the "Set Alarm" button. <br>
 
-**Manage Alarms:**
-• View a list of all active alarms.
-• Click "Delete" next to an alarm to remove it.
+**Manage Alarms:** <br>
+• View a list of all active alarms. <br>
+• Click "Delete" next to an alarm to remove it. <br>
 
-**🗂️ Project Structure**
-• index.html: The app's main structure.
-• index.css: Custom styles for a clean and modern look.
-• index.js: JavaScript logic for setting, managing, and triggering alarms.
-• Audio Files: Various .wav files used as alarm sounds.
-• favicon.png: The site’s tab icon.
+**🗂️ Project Structure** <br>
+• index.html: The app's main structure. <br>
+• index.css: Custom styles for a clean and modern look. <br>
+• index.js: JavaScript logic for setting, managing, and triggering alarms. <br>
+• Audio Files: Various .wav files used as alarm sounds. <br>
+• favicon.png: The site’s tab icon. <br>
 
-**🛠️ Technologies Used**
-• HTML5: For structure and content.
-• CSS3: For design and layout.
-• JavaScript (ES6+): For dynamic interactions.
-• Netlify: For deployment and hosting.
+**🛠️ Technologies Used** <br>
+• HTML5: For structure and content. <br>
+• CSS3: For design and layout. <br>
+• JavaScript (ES6+): For dynamic interactions. <br>
+• Netlify: For deployment and hosting. <br>
 
-**📈 Future Improvements**
-• Add custom alarm labels.
-• Introduce recurring alarms (daily, weekly).
-• Enable background notifications.
+**📈 Future Improvements** <br>
+• Add custom alarm labels. <br>
+• Introduce recurring alarms (daily, weekly). <br>
+• Enable background notifications. <br>
 
-**👨‍💻 Contributing**
-• Contributions, suggestions, and feature requests are welcome!
-• Fork the repo and submit a pull request.
+**👨‍💻 Contributing** <br>
+• Contributions, suggestions, and feature requests are welcome! <br>
+• Fork the repo and submit a pull request. <br>
 
-**📜 License**
-This project is available under the MIT License.
+**📜 License** <br>
+This project is available under the MIT License. <br>
