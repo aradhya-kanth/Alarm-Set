@@ -8,9 +8,6 @@ A minimal and interactive web application that lets users set alarms with custom
 • Clear UI/UX: Simple and intuitive design for a smooth user experience. <br>
 • Alarm Management: Delete unwanted alarms with a click. <br>
 
-**🚀 How It Works** <br>
-Visit the Website: Open the Alarm Setting App. <br>
-
 **Set an Alarm:** <br>
 • Choose the alarm time using the input field. <br>
 • Select an audio notification from the dropdown list. <br>
