@@ -1,4 +1,4 @@
-**Alarm Setting ⏰** <br>
+                                                                                      **Alarm Setting ⏰** <br>
 [Live Demo](https://alarmsetting.netlify.app/) <br>
 A minimal and interactive web application that lets users set alarms with customizable audio notifications.<br>
 
@@ -38,6 +38,3 @@ A minimal and interactive web application that lets users set alarms with custom
 **👨‍💻 Contributing** <br>
 • Contributions, suggestions, and feature requests are welcome! <br>
 • Fork the repo and submit a pull request. <br>
-
-**📜 License** <br>
-This project is available under the MIT License. <br>
